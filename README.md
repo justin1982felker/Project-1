@@ -91,3 +91,7 @@ SSH into the control node and follow the steps below:
 - Copy the ansible_config file to the elk server ansible directory.
 - Update the host file to include the new elk server IP 
 - Run the playbook, and navigate to http://(elk server public IP):5601/app/kibana to check that the installation worked as expected.
+
+### Linux
+- The purpose of adding this into the project is to show how we can set up system administration scripts to automate the daily tasks using cron as well as security automation audits using lynis.
+- You can find the following scripts in (Linux) tab.
